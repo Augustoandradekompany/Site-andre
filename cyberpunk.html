@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyberpunk 2077 - Fevilo Games</title>
+  <link rel="stylesheet" href="eric.css">
+  <style>
+    /* ===== ESTILO ESPECÍFICO PARA ESTA PÁGINA ===== */
+    .video-principal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      padding: 40px 0;
+    }
+
+    .video-principal iframe {
+      width: 80%;
+      max-width: 900px;
+      height: 500px;
+      border-radius: 10px;
+      border: 2px solid #f9d71c; /* cor temática do cyberpunk */
+    }
+
+    .game-detalhe {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #c5c6c7;
+      padding: 40px;
+    }
+
+    .game-detalhe img {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #f9d71c;
+    }
+
+    .comprar {
+      margin-top: 15px;
+      background-color: #f9d71c;
+      border: none;
+      padding: 10px 20px;
+      color: #0b0c10;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .comprar:hover {
+      background-color: #ffe761;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Fevilo Games</h1>
+    <nav>
+      <a href="Games.html">Início</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- 🔥 VÍDEO PRINCIPAL -->
+  <section class="video-principal">
+    <iframe 
+      src="videos/Cyberpunk 2077 Cinematic GMV – Chippin’ In (SAMURAI) [4K].mp4"
+      title="Cyberpunk 2077 Trailer Oficial"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- 🧾 DETALHES DO JOGO -->
+  <section class="catalogo destaque">
+    <div class="game-detalhe">
+      <img src="imagens/cyberpunk.webp" alt="Cyberpunk 2077">
+      <h2>Cyberpunk 2077</h2>
+      <p>
+        Cyberpunk 2077 é um RPG de ação em mundo aberto ambientado na futurista Night City, 
+        uma megalópole obcecada por poder, glamour e modificações corporais. 
+        Você joga como V, um mercenário em busca de um implante único que garante a imortalidade.
+      </p>
+      <h3>Preço: R$ 90,00</h3>
+
+      <a href="compra.html" target="_blank">
+        <button class="comprar">Finalizar Compra</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Fevilo Games © 2025</p>
+  </footer>
+</body>
+</html>

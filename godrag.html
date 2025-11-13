@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title> God of War Ragnarök - Fevilo Games</title>
+  <link rel="stylesheet" href="eric.css">
+  <style>
+    /* ===== ESTILO ESPECÍFICO PARA ESTA PÁGINA ===== */
+    .video-principal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      padding: 40px 0;
+    }
+
+    .video-principal iframe {
+      width: 80%;
+      max-width: 900px;
+      height: 500px;
+      border-radius: 10px;
+      border: 2px solid #1417c4; /* tom vermelho escuro combinando com o tema */
+    }
+
+    .game-detalhe {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      padding: 40px;
+    }
+
+    .game-detalhe img {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #102da1;
+    }
+
+    .comprar {
+      margin-top: 15px;
+      background-color: #102da1;
+      border: none;
+      padding: 10px 20px;
+      color: #f1f1f1;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .comprar:hover {
+      background-color: #102da1;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Fevilo Games</h1>
+    <nav>
+      <a href="Games.html">Início</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!--  VÍDEO PRINCIPAL -->
+  <section class="video-principal">
+    <iframe 
+      src="videos/Aerosmith - Dream On _ God of War (Sing for the Moment) It's Not Over Until I Win.mp4"
+      title="God of War Ragnarök"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- 🧾 DETALHES DO JOGO -->
+  <section class="catalogo destaque">
+    <div class="game-detalhe">
+      <img src="imagens/god.jpg" alt="God of War Ragnarök">
+      <h2>God of War Ragnarök</h2>
+      <p>
+        Kratos e seu filho Atreus viajam pelos 
+        Nove Reinos para buscar respostas enquanto se preparam para o destino profetizado do Ragnarök.
+      <h3>Preço: R$ 179,90</h3>
+
+    <a href="compra.html" target="_blank">
+        <button class="comprar">Finalizar Compra</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Fevilo Games © 2025</p>
+  </footer>
+</body>
+</html>

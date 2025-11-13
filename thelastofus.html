@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>The Last of Us Part II - Fevilo Games</title>
+  <link rel="stylesheet" href="eric.css">
+  <style>
+    /* ===== ESTILO ESPECÍFICO PARA ESTA PÁGINA ===== */
+    .video-principal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      padding: 40px 0;
+    }
+
+    .video-principal iframe {
+      width: 80%;
+      max-width: 900px;
+      height: 500px;
+      border-radius: 10px;
+      border: 2px solid #7a1f1f; /* tom vermelho escuro combinando com o tema */
+    }
+
+    .game-detalhe {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #c5c6c7;
+      padding: 40px;
+    }
+
+    .game-detalhe img {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #7a1f1f;
+    }
+
+    .comprar {
+      margin-top: 15px;
+      background-color: #7a1f1f;
+      border: none;
+      padding: 10px 20px;
+      color: #f1f1f1;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .comprar:hover {
+      background-color: #a82828;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Fevilo Games</h1>
+    <nav>
+      <a href="Games.html">Início</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- 🔥 VÍDEO PRINCIPAL -->
+  <section class="video-principal">
+    <iframe 
+      src="videos/Ellie Williams _ Nightmare.mp4"
+      title="The Last of Us Part II Trailer Oficial"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- 🧾 DETALHES DO JOGO -->
+  <section class="catalogo destaque">
+    <div class="game-detalhe">
+      <img src="imagens/thelast.jpg" alt="The Last of Us Part II">
+      <h2>The Last of Us Part II</h2>
+      <p>
+        The Last of Us Part II é um jogo de ação e aventura da Naughty Dog, 
+        que segue Ellie em uma jornada intensa de vingança e sobrevivência. 
+        Ambientado em um mundo pós-apocalíptico, o jogo mistura emoção, narrativa profunda e gráficos impressionantes.
+      </p>
+      <h3>Preço: R$ 179,90</h3>
+
+      <a href="compra.html" target="_blank">
+        <button class="comprar">Finalizar Compra</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Fevilo Games © 2025</p>
+  </footer>
+</body>
+</html>
