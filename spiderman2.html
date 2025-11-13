@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title> Spider Man 2 - Fevilo Games</title>
+  <link rel="stylesheet" href="eric.css">
+  <style>
+    /* ===== ESTILO ESPECÍFICO PARA ESTA PÁGINA ===== */
+    .video-principal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      padding: 40px 0;
+    }
+
+    .video-principal iframe {
+      width: 80%;
+      max-width: 900px;
+      height: 500px;
+      border-radius: 10px;
+      border: 2px solid #ff0000; /* tom vermelho escuro combinando com o tema */
+    }
+
+    .game-detalhe {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #c5c6c7;
+      padding: 40px;
+    }
+
+    .game-detalhe img {
+      width: 300px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 2px solid #183cdd;
+    }
+
+    .comprar {
+      margin-top: 15px;
+      background-color: #ff0000;
+      border: none;
+      padding: 10px 20px;
+      color: #f1f1f1;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .comprar:hover {
+      background-color: #0800ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎮 Fevilo Games</h1>
+    <nav>
+      <a href="Games.html">Início</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!--  VÍDEO PRINCIPAL -->
+  <section class="video-principal">
+    <iframe 
+      src="videos/Spider-Man _ I'm Still Standing.mp4"
+      title="Spider-Man"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- 🧾 DETALHES DO JOGO -->
+  <section class="catalogo destaque">
+    <div class="game-detalhe">
+      <img src="imagens/spider.jpg" alt="The Last of Us Part II">
+      <h2>Spider-Man</h2>
+      <p>
+        Peter Parker e Miles Morales enfrentam novos inimigos em uma Nova York vibrante e repleta de ação.
+      <h3>Preço: R$ 179,90</h3>
+
+      <a href="compra.html" target="_blank">
+        <button class="comprar">Finalizar Compra</button>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Fevilo Games © 2025</p>
+  </footer>
+</body>
+</html>
