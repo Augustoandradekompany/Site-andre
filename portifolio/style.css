@@ -1,0 +1,89 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background: black; /* fundo dark */
+    color: #e2e8f0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+/* NOME */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* CARGO */
+body > p:first-of-type {
+    color: red;
+    margin-bottom: 20px;
+}
+
+/* LINHAS */
+hr {
+    border: none;
+    height: 1px;
+    background: darkred;
+    margin: 25px auto;
+    width: 60%;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: darkred;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* IMAGEM */
+.perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid darkred;
+    transition: 0.3s;
+}
+
+.perfil:hover {
+    transform: scale(1.05);
+}
+
+/* TEXTO SOBRE */
+body p {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* CONTATO FINAL */
+body > p:last-of-type,
+body > p:nth-last-of-type(2) {
+    margin-top: 10px;
+    color: #94a3b8;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .perfil {
+        width: 120px;
+    }
+}
